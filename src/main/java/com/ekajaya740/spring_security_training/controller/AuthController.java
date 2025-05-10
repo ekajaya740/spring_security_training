@@ -24,7 +24,7 @@ public class AuthController {
   public String token(Authentication authentication) {
     log.debug("Token requested for user: {}", authentication.getName());
 
-    return entity;
+    return '';
   }
 
 }
